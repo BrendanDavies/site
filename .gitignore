@@ -1,2 +1,8 @@
-.next
+# IDE Code
+.vscode
+
+# Dependencies
 /node_modules
+
+# Build Files
+.next
