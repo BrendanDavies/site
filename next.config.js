@@ -1,6 +1,7 @@
 const withCSS = require('@zeit/next-css');
 const withImages = require('next-images');
 const withOffline = require('next-offline');
+const withPurgeCss = require('next-purgecss');
 
 const nextConfig = {
   target: 'serverless',
@@ -31,4 +32,4 @@ const nextConfig = {
 };
 
 // next.config.js
-module.exports = withOffline(withCSS(withImages(nextConfig)));
+module.exports = withOffline(withImages(withCSS(withPurgeCss(nextConfig))));

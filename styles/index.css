@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+/* purgecss start ignore */
 body {
   @apply bg-gray-300;
   background-color: #ff7700;
@@ -9,3 +10,4 @@ body {
   background-attachment: fixed;
   background-size: cover;
 }
+/* purgecss end ignore */
