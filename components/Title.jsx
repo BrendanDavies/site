@@ -1,5 +1,4 @@
-import React from 'react';
-import { GithubIcon } from '../icons/github';
+import { GithubIcon } from './icons/github';
 
 export const Title = () => (
   <div className="flex flex-col justify-center h-full text-center">
