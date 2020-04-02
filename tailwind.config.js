@@ -1,6 +1,4 @@
-const {
-  addUtilitiesFromConfig
-} = require('./tailwind/helpers.js');
+const { addUtilitiesFromConfig } = require('./tailwind/helpers.js');
 
 module.exports = {
   theme: {

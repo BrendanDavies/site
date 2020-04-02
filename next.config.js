@@ -1,4 +1,3 @@
-const withCSS = require('@zeit/next-css');
 const withImages = require('next-images');
 const withOffline = require('next-offline');
 const withPurgeCss = require('next-purgecss');
@@ -32,4 +31,4 @@ const nextConfig = {
 };
 
 // next.config.js
-module.exports = withOffline(withImages(withCSS(withPurgeCss(nextConfig))));
+module.exports = withOffline(withImages(withPurgeCss(nextConfig)));
