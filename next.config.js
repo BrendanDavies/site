@@ -13,7 +13,8 @@ const nextConfig = {
         urlPattern: /.png$/,
         handler: 'CacheFirst'
       }
-    ]
+    ],
+    swDest: 'static/service-worker.js'
   }
 };
 
