@@ -11,7 +11,7 @@ const App = () => (
       <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       <meta name="theme-color" content="#09111C"></meta>
     </Head>
-    <div className="h-screen">
+    <div className="flex flex-col justify-center h-screen text-center">
       <Header></Header>
       <Title></Title>
     </div>
