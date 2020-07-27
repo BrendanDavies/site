@@ -33,6 +33,13 @@ export const Header = () => {
             </Link>
           </li>
           <li className="flex-1 p-3 text-center md:p-6">
+            <Link href="/contact">
+              <a className="smoothscroll" href="/contact">
+                Contact
+              </a>
+            </Link>
+          </li>
+          <li className="flex-1 p-3 text-center md:p-6">
             <a
               className="smoothscroll"
               href="https://brendandavies.github.io/resume/"
@@ -41,13 +48,6 @@ export const Header = () => {
             >
               Resume
             </a>
-          </li>
-          <li className="flex-1 p-3 text-center md:p-6">
-            <Link href="/contact">
-              <a className="smoothscroll" href="/contact">
-                Contact
-              </a>
-            </Link>
           </li>
         </ul>
       </nav>
