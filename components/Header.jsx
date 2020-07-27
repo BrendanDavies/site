@@ -17,7 +17,14 @@ export const Header = () => {
           <Menu className="w-8 h-6 m-4" isExpanded={isExpanded}></Menu>
         </button>
 
-        <ul className={classNames('md:flex', { hidden: !isExpanded })}>
+        <ul
+          className={classNames(
+            'backdrop-blur bg-black bg-opacity-25 md:flex',
+            {
+              hidden: !isExpanded
+            }
+          )}
+        >
           <li className="flex-1 p-3 text-center md:p-6">
             <Link href="/">
               <a className="smoothscroll" href="/home">
