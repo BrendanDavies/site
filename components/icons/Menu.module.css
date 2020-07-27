@@ -1,7 +1,6 @@
 
 .menu {
   position: relative;
-  margin: 0 auto;
   transform: rotate(0deg);
   transition: .5s ease-in-out;
   cursor: pointer;
