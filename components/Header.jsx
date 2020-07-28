@@ -10,7 +10,7 @@ export const Header = () => {
   useOnClickOutside(node, () => setExpanded(false));
 
   return (
-    <header className="block" ref={node}>
+    <header className="h-12" ref={node}>
       <nav className="absolute md:static">
         <button
           className="mobile-btn md:hidden"
@@ -22,9 +22,9 @@ export const Header = () => {
 
         <ul
           className={classNames(
-            'backdrop-blur bg-black bg-opacity-25 md:flex',
+            'backdrop-blur bg-black bg-opacity-25 md:flex transform duration-500 ease-in-out translate-x-0',
             {
-              hidden: !isExpanded
+              '-translate-x-32 md:translate-x-0': !isExpanded
             }
           )}
           onClick={() => setExpanded(false)}
