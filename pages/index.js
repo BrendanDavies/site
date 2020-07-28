@@ -1,5 +1,3 @@
-import Link from 'next/link';
-import { Header } from '../components/Header';
 import { Title } from '../components/Title';
 
 const Landing = () => (
