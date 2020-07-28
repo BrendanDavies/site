@@ -1,8 +1,10 @@
+import { Card } from '../components/Card.tsx';
+
 const About = () => (
-  <div className="pt-32">
+  <Card>
     <h1>About</h1>
     <p>Software Engineer...</p>
-  </div>
+  </Card>
 );
 
 export default About;

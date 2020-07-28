@@ -1,5 +1,7 @@
+import { Card } from '../components/Card.tsx';
+
 const Contact = () => (
-  <div className="pt-32">
+  <Card>
     <h1>Contact</h1>
     <p>
       Email:{' '}
@@ -7,7 +9,7 @@ const Contact = () => (
         BrendanKyleDavies@gmail.com
       </a>
     </p>
-  </div>
+  </Card>
 );
 
 export default Contact;
