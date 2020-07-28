@@ -1,13 +1,16 @@
 import classNames from 'classnames';
 import Link from 'next/link';
-import { useState } from 'react';
+import { useRef, useState } from 'react';
 import Menu from './icons/Menu';
+import { useOnClickOutside } from './hooks/outside-click';
 
 export const Header = () => {
   const [isExpanded, setExpanded] = useState(false);
+  const node = useRef();
+  useOnClickOutside(node, () => setExpanded(false));
 
   return (
-    <header className="block">
+    <header className="block" ref={node}>
       <nav className="absolute md:static">
         <button
           className="mobile-btn md:hidden"
@@ -24,6 +27,7 @@ export const Header = () => {
               hidden: !isExpanded
             }
           )}
+          onClick={() => setExpanded(false)}
         >
           <li className="flex-1 p-3 text-center md:p-6">
             <Link href="/">
