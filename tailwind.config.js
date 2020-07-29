@@ -1,4 +1,5 @@
 module.exports = {
+  purge: ['./components/**/*.*', './pages/**/*.*'],
   theme: {
     filter: {
       none: 'none',
