@@ -11,7 +11,7 @@ export const Header = () => {
 
   return (
     <header className="h-12" ref={node}>
-      <nav className="absolute md:static">
+      <nav className="absolute z-10 md:static">
         <button
           className="mobile-btn md:hidden"
           onClick={() => setExpanded(currentValue => !currentValue)}
@@ -22,7 +22,7 @@ export const Header = () => {
 
         <ul
           className={classNames(
-            'backdrop-blur bg-black bg-opacity-25 md:flex transform duration-500 ease-in-out md:translate-x-0 opacity-0',
+            'backdrop-blur bg-black bg-opacity-25 md:flex transform duration-500 ease-in-out md:translate-x-0 opacity-0 md:opacity-100',
             {
               'translate-x-0 opacity-100': isExpanded,
               '-translate-x-32 opacity-0': !isExpanded
@@ -30,30 +30,30 @@ export const Header = () => {
           )}
           onClick={() => setExpanded(false)}
         >
-          <li className="flex-1 p-3 text-center md:p-6">
+          <li className="flex-1 p-4 text-center md:p-6">
             <Link href="/">
-              <a className="smoothscroll" href="/home">
+              <a className="p-3" href="/home">
                 Home
               </a>
             </Link>
           </li>
-          <li className="flex-1 p-3 text-center md:p-6">
+          <li className="flex-1 p-4 text-center md:p-6">
             <Link href="/about">
-              <a className="smoothscroll" href="/about">
+              <a className="p-3" href="/about">
                 About
               </a>
             </Link>
           </li>
-          <li className="flex-1 p-3 text-center md:p-6">
+          <li className="flex-1 p-4 text-center md:p-6">
             <Link href="/contact">
-              <a className="smoothscroll" href="/contact">
+              <a className="p-3" href="/contact">
                 Contact
               </a>
             </Link>
           </li>
-          <li className="flex-1 p-3 text-center md:p-6">
+          <li className="flex-1 p-4 text-center md:p-6">
             <a
-              className="smoothscroll"
+              className="p-3"
               href="https://brendandavies.github.io/resume/"
               rel="noopener noreferrer"
               target="_blank"
