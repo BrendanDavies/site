@@ -22,10 +22,10 @@ export const Header = () => {
 
         <ul
           className={classNames(
-            'backdrop-blur bg-black bg-opacity-25 md:flex transform duration-500 ease-in-out md:translate-x-0',
+            'backdrop-blur bg-black bg-opacity-25 md:flex transform duration-500 ease-in-out md:translate-x-0 opacity-0',
             {
-              'translate-x-0': isExpanded,
-              '-translate-x-32': !isExpanded
+              'translate-x-0 opacity-100': isExpanded,
+              '-translate-x-32 opacity-0': !isExpanded
             }
           )}
           onClick={() => setExpanded(false)}
