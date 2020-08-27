@@ -11,21 +11,20 @@ export const Header = () => {
 
   return (
     <header className="h-12" ref={node}>
-      <nav className="absolute z-10 md:static">
+      <nav className="absolute right-0 z-10 overflow-hidden text-right md:static">
         <button
-          className="mobile-btn md:hidden"
+          className="text-right mobile-btn md:hidden"
           onClick={() => setExpanded(currentValue => !currentValue)}
           title="Toggle navigation"
         >
           <Menu className="w-8 h-6 m-4" isExpanded={isExpanded}></Menu>
         </button>
-
         <ul
           className={classNames(
-            'backdrop-blur bg-black bg-opacity-25 md:flex transform duration-500 ease-in-out md:translate-x-0 opacity-0 md:opacity-100',
+            'backdrop-blur bg-orange bg-opacity-25 md:flex transform duration-500 ease-in-out md:translate-x-0 opacity-0 md:opacity-100',
             {
               'translate-x-0 opacity-100': isExpanded,
-              '-translate-x-32 opacity-0': !isExpanded
+              'translate-x-32 opacity-0': !isExpanded
             }
           )}
           onClick={() => setExpanded(false)}
