@@ -1,7 +1,7 @@
 import { GithubIcon } from './icons/github';
 
 export const Title = () => (
-  <div className="p-8 m-auto">
+  <div>
     <h1 className="text-4xl">Brendan Davies</h1>
     <p className="m-2 overflow-hidden">Software Engineer</p>
     <span>
