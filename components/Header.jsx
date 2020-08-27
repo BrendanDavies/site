@@ -50,16 +50,6 @@ export const Header = () => {
               </a>
             </Link>
           </li>
-          <li className="flex-1 p-4 text-center md:p-6">
-            <a
-              className="p-3"
-              href="https://brendandavies.github.io/resume/"
-              rel="noopener noreferrer"
-              target="_blank"
-            >
-              Resume
-            </a>
-          </li>
         </ul>
       </nav>
     </header>
