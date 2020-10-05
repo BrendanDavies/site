@@ -1,6 +1,11 @@
 const COLORS = require('./tokens/colors');
 
 module.exports = {
+  future: {
+    // Soon to be deprecated features
+    purgeLayersByDefault: true,
+    removeDeprecatedGapUtilities: true
+  },
   purge: ['./components/**/*.*', './pages/**/*.*'],
   theme: {
     extend: {
