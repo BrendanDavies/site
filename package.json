@@ -14,25 +14,25 @@
   "license": "ISC",
   "dependencies": {
     "classnames": "^2.2.6",
-    "next": "^9.5.2",
-    "next-images": "^1.4.0",
+    "next": "^9.5.3",
+    "next-images": "^1.6.0",
     "next-offline": "^5.0.2",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
   },
   "devDependencies": {
-    "@fullhuman/postcss-purgecss": "^2.1.0",
+    "@fullhuman/postcss-purgecss": "^2.3.0",
     "babel-plugin-inline-react-svg": "^1.1.1",
-    "eslint": "^6.7.2",
-    "eslint-config-prettier": "^6.7.0",
-    "eslint-plugin-prettier": "^3.1.1",
-    "eslint-plugin-react": "^7.17.0",
-    "eslint-plugin-react-hooks": "^2.3.0",
+    "eslint": "^6.8.0",
+    "eslint-config-prettier": "^6.12.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "eslint-plugin-react": "^7.21.3",
+    "eslint-plugin-react-hooks": "^2.5.1",
     "find-cache-dir": "^3.3.1",
     "postcss-preset-env": "^6.7.0",
     "prettier": "^1.19.1",
-    "serialize-javascript": ">=3.1.0",
-    "tailwindcss": "^1.5.2",
+    "serialize-javascript": "^5.0.1",
+    "tailwindcss": "^1.8.10",
     "tailwindcss-filters": "^3.0.0"
   }
 }
