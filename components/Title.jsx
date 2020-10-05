@@ -1,4 +1,4 @@
-import GithubIcon from '../images/github.svg';
+import GithubIcon from '../images/github-light.svg';
 import ResumeIcon from '../images/resume.svg';
 
 export const Title = () => (
@@ -7,6 +7,7 @@ export const Title = () => (
     <p className="m-2 overflow-hidden">Software Engineer</p>
     <span className="flex justify-center m-auto">
       <a
+        className="p-3"
         href="https://github.com/BrendanDavies"
         target="_blank"
         rel="noopener noreferrer"
@@ -14,6 +15,7 @@ export const Title = () => (
         <GithubIcon className="w-8 h-8" />
       </a>
       <a
+        className="p-3"
         href="https://brendandavies.github.io/resume/"
         target="_blank"
         rel="noopener noreferrer"
