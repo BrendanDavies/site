@@ -4,12 +4,3 @@
 /* purgecss end ignore */
 @tailwind utilities;
 @import './custom.css';
-
-/* purgecss start ignore */
-body {
-  /* TODO: Stop repeating this color definition */
-  background-color: #ab4f01;
-  background-attachment: fixed;
-  background-size: cover;
-}
-/* purgecss end ignore */
