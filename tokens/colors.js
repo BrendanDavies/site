@@ -1,13 +1,13 @@
 const RAW_COLORS = {
-  burnt: '#ab4f01',
-  orange: '#f39933',
-  eggplant: '#5b2337'
-  // c4: '#a67871',
-  // c5: '#2e161'
+  'windsor-tan': '#ad5101',
+  wine: '#592630',
+  'deep-space-sparkle': '#4c5b5d',
+  'honey-yellow': '#ffb005',
+  champagne: '#eedfc9'
 };
 
 module.exports = {
-  primary: RAW_COLORS.burnt,
-  secondary: RAW_COLORS.eggplant,
+  primary: RAW_COLORS['windsor-tan'],
+  secondary: RAW_COLORS['honey-yellow'],
   ...RAW_COLORS // Stop doing this
 };
