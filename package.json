@@ -29,10 +29,15 @@
     "eslint-plugin-react": "^7.21.3",
     "eslint-plugin-react-hooks": "^2.5.1",
     "find-cache-dir": "^3.3.1",
+    "imagemin-mozjpeg": "^9.0.0",
+    "imagemin-optipng": "^8.0.0",
+    "next-compose-plugins": "^2.2.0",
+    "next-optimized-images": "^2.6.2",
     "postcss-preset-env": "^6.7.0",
     "prettier": "^1.19.1",
     "serialize-javascript": "^5.0.1",
     "tailwindcss": "^1.8.10",
-    "tailwindcss-filters": "^3.0.0"
+    "tailwindcss-filters": "^3.0.0",
+    "webp-loader": "^0.6.0"
   }
 }
