@@ -10,7 +10,7 @@ const Contact = () => (
     <p>
       Feel free to email me at:{' '}
       <a
-        className="text-blue-800 underline"
+        className="text-blue-400 underline"
         href="mailto:brendankyledavies@gmail.com?subject=How%20interesting&body=I-have-many-moneys-for-you"
       >
         BrendanKyleDavies@gmail.com
