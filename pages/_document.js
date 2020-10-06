@@ -7,7 +7,7 @@ class MyDocument extends Document {
         <Head />
         <body
           style={{
-            backgroundImage: 'url(./lorraine.jpg)',
+            backgroundImage: `url(${require('../public/images/lorraine.jpg')})`,
             backgroundPosition: 'top center',
             backgroundRepeat: 'no-repeat'
             // backgroundSize: 'cover'

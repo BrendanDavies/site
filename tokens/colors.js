@@ -6,6 +6,14 @@ const RAW_COLORS = {
   champagne: '#eedfc9'
 };
 
+// Palette based on background
+// /* CSS HEX */
+// --pine-tree: #2b2c25ff;
+// --cadet: #556f7aff;
+// --gray-web: #798086ff;
+// --lilac-luster: #b79fadff;
+// --pink-lavender: #d4afcdff;
+
 module.exports = {
   primary: RAW_COLORS['windsor-tan'],
   secondary: RAW_COLORS['honey-yellow'],
