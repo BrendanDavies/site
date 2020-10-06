@@ -16,7 +16,7 @@ const LinkIcon = ({ Icon, href, text }) => (
 );
 
 export const Title = () => (
-  <Card>
+  <Card className="w-4/5 md:w-2/4">
     <h1 className="text-4xl">Brendan Davies</h1>
     <p className="m-2 overflow-hidden">Software Engineer</p>
     <span className="flex justify-center m-auto">

@@ -7,5 +7,5 @@ interface CardProps {
 }
 
 export const Card = ({ children, className: parentClassName }: CardProps) => (
-  <div className={classNames(parentClassName, "inline-block p-12 m-auto text-center bg-cover bg-opacity-75 center backdrop-blur rounded-lg")}>{children}</div>
+  <div className={classNames(parentClassName, "inline-block p-3 md:p-12 m-auto text-center bg-cover bg-opacity-75 center backdrop-blur rounded-lg")}>{children}</div>
 );
