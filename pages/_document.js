@@ -5,7 +5,14 @@ class MyDocument extends Document {
     return (
       <Html>
         <Head lang="en" />
-        <body className="bg-primary">
+        <body
+          style={{
+            backgroundImage: 'url(./lorraine.jpg)',
+            backgroundPosition: 'top center',
+            backgroundRepeat: 'no-repeat'
+            // backgroundSize: 'cover'
+          }}
+        >
           <Main />
           <NextScript />
         </body>

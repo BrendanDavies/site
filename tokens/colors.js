@@ -9,5 +9,6 @@ const RAW_COLORS = {
 module.exports = {
   primary: RAW_COLORS['windsor-tan'],
   secondary: RAW_COLORS['honey-yellow'],
+  cover: RAW_COLORS['deep-space-sparkle'],
   ...RAW_COLORS // Stop doing this
 };

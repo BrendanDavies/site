@@ -1,8 +1,10 @@
 # IDE Code
 .vscode
+.DS_Store
 
 # Dependencies
 /node_modules
 
 # Build Files
 .next
+

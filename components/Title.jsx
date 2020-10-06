@@ -8,7 +8,7 @@ const LinkIcon = ({ Icon, href }) => (
 );
 
 export const Title = () => (
-  <div>
+  <span className="inline-block p-4 bg-opacity-75 rounded-lg backdrop-blur bg-cover">
     <h1 className="text-4xl">Brendan Davies</h1>
     <p className="m-2 overflow-hidden">Software Engineer</p>
     <span className="flex justify-center m-auto">
@@ -18,7 +18,7 @@ export const Title = () => (
         Icon={ResumeIcon}
       />
     </span>
-  </div>
+  </span>
 );
 
 export default Title;
