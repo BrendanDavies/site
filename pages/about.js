@@ -1,8 +1,9 @@
 import { Card } from '../components/Card.tsx';
+import { SectionHeader } from '../components/SectionHeader.tsx';
 
 const About = () => (
-  <Card className="w-4/5 md:w-2/4">
-    <h1 className="text-2xl">About</h1>
+  <Card className="w-4/5 md:w-2/4 text-primary">
+    <SectionHeader>About</SectionHeader>
     <p className="m-2">My name is Brendan.</p>
     <p className="m-2">
       I am a Software Engineer who has worked across many platforms, from DBA to

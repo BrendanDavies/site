@@ -5,15 +5,7 @@ class MyDocument extends Document {
     return (
       <Html lang="en">
         <Head />
-        <body
-          className="h-screen bg-white"
-          // style={{
-          //   backgroundImage: `url(${require('../public/images/lorraine.jpg')})`,
-          //   backgroundPosition: 'center center',
-          //   backgroundRepeat: 'no-repeat',
-          //   backgroundSize: 'cover'
-          // }}
-        >
+        <body className="h-screen bg-cover">
           <Main />
           <NextScript />
         </body>

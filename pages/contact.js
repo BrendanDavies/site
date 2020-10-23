@@ -1,9 +1,10 @@
 import { Card } from '../components/Card.tsx';
+import { SectionHeader } from '../components/SectionHeader.tsx';
 
 const Contact = () => (
-  <Card className="w-4/5 md:w-2/4">
-    <h1 className="text-2xl">Want to reach out?</h1>
-    <p className="py-2">
+  <Card className="w-4/5 md:w-2/4 text-primary">
+    <SectionHeader>Want to reach out?</SectionHeader>
+    <p className="py-2 ">
       Professional Opportunities? Talk about tech things? Tell me how terrible
       this orange background is?
     </p>
