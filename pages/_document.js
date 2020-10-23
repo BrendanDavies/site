@@ -6,13 +6,13 @@ class MyDocument extends Document {
       <Html lang="en">
         <Head />
         <body
-          className="h-screen"
-          style={{
-            backgroundImage: `url(${require('../public/images/lorraine.jpg')})`,
-            backgroundPosition: 'center center',
-            backgroundRepeat: 'no-repeat',
-            backgroundSize: 'cover'
-          }}
+          className="h-screen bg-white"
+          // style={{
+          //   backgroundImage: `url(${require('../public/images/lorraine.jpg')})`,
+          //   backgroundPosition: 'center center',
+          //   backgroundRepeat: 'no-repeat',
+          //   backgroundSize: 'cover'
+          // }}
         >
           <Main />
           <NextScript />

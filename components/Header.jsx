@@ -11,9 +11,9 @@ export const Header = () => {
 
   return (
     <header className="h-12" ref={node}>
-      <nav className="absolute right-0 z-10 overflow-hidden text-right md:static">
+      <nav className="static overflow-hidden text-right bg-primary">
         <button
-          className="text-right bg-opacity-75 bg-cover mobile-btn md:hidden backdrop-blur"
+          className="text-right mobile-btn md:hidden"
           onClick={() => setExpanded(currentValue => !currentValue)}
           title="Toggle navigation"
         >
@@ -21,7 +21,7 @@ export const Header = () => {
         </button>
         <ul
           className={classNames(
-            'backdrop-blur bg-cover bg-opacity-75 md:flex transform duration-500 ease-in-out md:translate-x-0 opacity-0 md:opacity-100',
+            'absolute right-0 md:relative max-w-2xl m-auto md:flex transform bg-primary duration-500 ease-in-out md:translate-x-0 opacity-0 md:opacity-100',
             {
               'translate-x-0 opacity-100': isExpanded,
               'translate-x-32 opacity-0': !isExpanded
