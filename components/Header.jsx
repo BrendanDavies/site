@@ -33,7 +33,7 @@ export const Header = () => {
         </button>
         <ul
           className={classNames(
-            'fixed right-auto md:static max-w-2xl md:flex transform bg-secondary duration-500 ease-in-out md:transform-none',
+            'fixed right-auto md:static max-w-2xl md:flex transform bg-secondary duration-500 ease-in-out md:transform-none z-10',
             {
               '-translate-x-16': isExpanded,
               'translate-x-32': !isExpanded
