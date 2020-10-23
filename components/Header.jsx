@@ -6,7 +6,7 @@ import Icon from '../images/icon.svg';
 import { useOnClickOutside } from './hooks/outside-click';
 
 const HeaderLink = ({ children, href }) => (
-  <li className="flex-1 p-4 text-center md:p-6">
+  <li className="p-6 text-center uppercase">
     <Link href={href}>
       <a className="p-3" href={href}>
         {children}
@@ -21,9 +21,9 @@ export const Header = () => {
   useOnClickOutside(node, () => setExpanded(false));
 
   return (
-    <header className="h-12" ref={node}>
-      <nav className="static flex justify-between overflow-hidden bg-secondary">
-        <Icon className="inline-block w-8 h-8 m-4 md:mx-8 text-cover"></Icon>
+    <header className="flex justify-between bg-secondary" ref={node}>
+      <Icon className="inline-block w-8 h-8 mx-8 my-4 md:mx-12 text-cover"></Icon>
+      <nav>
         <button
           className="mobile-btn md:hidden"
           onClick={() => setExpanded(currentValue => !currentValue)}
@@ -33,11 +33,11 @@ export const Header = () => {
         </button>
         <ul
           className={classNames(
-            'absolute md:static inline-block max-w-2xl md:flex transform bg-secondary duration-500 ease-in-out md:transform-none uppercase'
-            // {
-            //   'translate-x-0': isExpanded,
-            //   'translate-x-32': !isExpanded
-            // }
+            'fixed right-auto md:static max-w-2xl md:flex transform bg-secondary duration-500 ease-in-out md:transform-none',
+            {
+              '-translate-x-16': isExpanded,
+              'translate-x-32': !isExpanded
+            }
           )}
           onClick={() => setExpanded(false)}
         >
