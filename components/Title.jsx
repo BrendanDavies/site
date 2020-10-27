@@ -20,7 +20,7 @@ export const Title = () => (
     <h1 className="text-4xl border-b-2 md:text-5xl text-primary border-secondary">
       Brendan Davies
     </h1>
-    <p className="m-2 overflow-hidden text-base md:text-2xl text-primary">
+    <p className="m-2 overflow-hidden text-base font-hairline md:text-2xl text-primary ">
       Software Engineer
     </p>
     <span className="flex justify-center m-auto text-primary">

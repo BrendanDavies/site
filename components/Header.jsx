@@ -6,7 +6,7 @@ import Icon from '../images/icon.svg';
 import { useOnClickOutside } from './hooks/outside-click';
 
 const HeaderLink = ({ children, href }) => (
-  <li className="p-6 text-center uppercase">
+  <li className="p-6 text-center uppercase md:p-4">
     <Link href={href}>
       <a className="p-3" href={href}>
         {children}
