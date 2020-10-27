@@ -2,7 +2,7 @@ import { Card } from '../components/Card.tsx';
 import { SectionHeader } from '../components/SectionHeader.tsx';
 
 const About = () => (
-  <Card className="w-4/5 md:w-2/4 text-primary">
+  <Card className="w-4/5 md:w-2/4 text-on-secondary">
     <SectionHeader>About</SectionHeader>
     <p className="m-2">My name is Brendan.</p>
     <p className="m-2">

@@ -2,7 +2,7 @@ import { Card } from '../components/Card.tsx';
 import { SectionHeader } from '../components/SectionHeader.tsx';
 
 const Contact = () => (
-  <Card className="w-4/5 md:w-2/4 text-primary">
+  <Card className="w-4/5 md:w-2/4 text-on-secondary">
     <SectionHeader>Want to reach out?</SectionHeader>
     <p className="py-2 ">
       Professional Opportunities? Talk about tech things? Tell me how much this

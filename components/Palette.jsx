@@ -5,10 +5,10 @@ import React from 'react';
  */
 export const Palette = () => (
   <div className="flex">
-    <span className="inline-block w-1/5 h-20 bg-wine"></span>
-    <span className="inline-block w-1/5 h-20 bg-champagne"></span>
-    <span className="inline-block w-1/5 h-20 bg-deep-space-sparkle"></span>
-    <span className="inline-block w-1/5 h-20 bg-honey-yellow"></span>
-    <span className="inline-block w-1/5 h-20 bg-windsor-tan"></span>
+    <span className="inline-block w-1/5 h-20 bg-primary"></span>
+    <span className="inline-block w-1/5 h-20 bg-secondary"></span>
+    <span className="inline-block w-1/5 h-20 bg-purple"></span>
+    <span className="inline-block w-1/5 h-20 bg-red"></span>
+    <span className="inline-block w-1/5 h-20 bg-grey"></span>
   </div>
 );

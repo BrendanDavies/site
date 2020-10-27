@@ -8,8 +8,11 @@ const RAW_COLORS = {
 };
 
 module.exports = {
-  primary: RAW_COLORS.white,
-  secondary: RAW_COLORS.wine,
-  cover: RAW_COLORS.black
+  primary: RAW_COLORS.wine,
+  secondary: RAW_COLORS.black,
+  tertiary: RAW_COLORS.grey,
+  ['on-primary']: RAW_COLORS.white,
+  ['on-secondary']: RAW_COLORS.white,
+  ['on-tertiary']: RAW_COLORS.red
   // ...RAW_COLORS // Stop doing this
 };
