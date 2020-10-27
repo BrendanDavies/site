@@ -14,7 +14,7 @@
   "license": "ISC",
   "dependencies": {
     "classnames": "^2.2.6",
-    "next": "^9.5.3",
+    "next": "^9.5.5",
     "next-images": "^1.6.0",
     "next-offline": "^5.0.2",
     "react": "^16.13.1",
