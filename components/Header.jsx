@@ -6,7 +6,7 @@ import Icon from '../images/icon.svg';
 import { useOnClickOutside } from './hooks/outside-click';
 
 const HeaderLink = ({ children, href }) => (
-  <li className="p-6 text-center uppercase md:p-4">
+  <li className="p-6 font-semibold text-center md:p-4">
     <Link href={href}>
       <a className="p-3" href={href}>
         {children}
@@ -22,7 +22,7 @@ export const Header = () => {
 
   return (
     <header
-      className="flex justify-between bg-primary text-on-primary"
+      className="flex justify-between md:justify-around bg-primary text-on-primary"
       ref={node}
     >
       <Icon className="inline-block w-8 h-8 mx-8 my-4 md:mx-12"></Icon>

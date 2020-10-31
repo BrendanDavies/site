@@ -1,18 +1,24 @@
-const RAW_COLORS = {
-  black: '#1A1A1D',
-  grey: '#4E4E50',
-  wine: '#6F2232',
-  purple: '#950740',
-  red: '#C3073F',
-  white: '#FFFFFF'
+// const HALLOWEEN = {
+//   grey: '#f4f4f4',
+//   orange: '#cf7500',
+//   yellow: '#f0a500',
+//   black: '#1a1c20'
+// };
+
+const COLORS = {
+  Xiketic: '#191014',
+  Cultured: '#edf2ef',
+  Goldenrod: '#e6af2e',
+  Redwood: '#a05344',
+  Xanadu: '#808f85',
+  Rust: '#8d2e00',
+  White: '#ffffff'
 };
 
 module.exports = {
-  primary: RAW_COLORS.wine,
-  secondary: RAW_COLORS.black,
-  tertiary: RAW_COLORS.grey,
-  ['on-primary']: RAW_COLORS.white,
-  ['on-secondary']: RAW_COLORS.white,
-  ['on-tertiary']: RAW_COLORS.red
-  // ...RAW_COLORS // Stop doing this
+  primary: COLORS.Rust,
+  secondary: COLORS.Xiketic,
+  ['on-primary']: COLORS.White,
+  ['on-secondary']: COLORS.White
+  // ...COLORS // Stop doing this
 };
