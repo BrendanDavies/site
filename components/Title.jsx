@@ -11,7 +11,7 @@ const LinkIcon = ({ Icon, href, text }) => (
     target="_blank"
     rel="noopener noreferrer"
   >
-    <Icon className="w-12 h-12" />
+    <Icon className="w-10 h-10" />
   </a>
 );
 
