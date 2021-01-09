@@ -18,10 +18,10 @@ const LinkIcon = ({ Icon, href, text }) => (
 export const Title = () => (
   <Card className="w-4/5 md:w-2/4 text-on-secondary">
     <h1 className="text-4xl border-b-2 md:text-5xl border-primary">
-      Brendan Davies
+      brendan davies
     </h1>
-    <p className="m-2 overflow-hidden text-base font-hairline md:text-2xl">
-      Software Engineer
+    <p className="m-2 overflow-hidden text-base text-2xl font-hairline">
+      software engineer
     </p>
     <span className="flex justify-center m-auto">
       <LinkIcon
