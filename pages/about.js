@@ -10,7 +10,7 @@ const About = () => (
       Frontend Developer, and enjoys the common threads between them.
     </p>
     <p className="m-2">
-      In my free time I attempt to be a Woodworker, travel whenever possible,
+      In my free time I attempt to be a woodworker, travel whenever possible,
       and spend time with my animals when it is not.
     </p>
   </Card>
