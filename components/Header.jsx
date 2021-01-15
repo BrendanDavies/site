@@ -18,6 +18,7 @@ const HeaderLink = ({ children, href }) => (
 
 export const Header = () => {
   const [isExpanded, setExpanded] = useState(false);
+  const [hasBeenToggled, setMenuToggled] = useState(false);
   const node = useRef();
   useOnClickOutside(node, () => setExpanded(false));
 
@@ -31,20 +32,27 @@ export const Header = () => {
       <nav>
         <button
           className="mobile-btn md:hidden"
-          onClick={() => setExpanded(currentValue => !currentValue)}
+          onClick={() => {
+            if (!hasBeenToggled) setMenuToggled(true);
+            setExpanded(currentValue => !currentValue);
+          }}
           title="Toggle navigation"
         >
           <Menu className="w-8 h-6 m-4" isExpanded={isExpanded}></Menu>
         </button>
         <ul
           className={classNames(
-            'fixed right-auto md:static max-w-2xl md:flex transform md:transform-none bg-primary duration-500 ease-in-out z-10 md:opacity-100',
+            'fixed right-auto md:static max-w-2xl md:flex bg-primary z-10 md:opacity-100',
             {
+              /** Only add animation properties on first toggle */
+              'transition-all transform duration-500 ease-in-out': hasBeenToggled,
               '-translate-x-16 opacity-100': isExpanded,
               'translate-x-32 opacity-0': !isExpanded
             }
           )}
-          onClick={() => setExpanded(false)}
+          onClick={() => {
+            setExpanded(false);
+          }}
         >
           <HeaderLink href="/">home</HeaderLink>
           <HeaderLink href="/about">about</HeaderLink>
