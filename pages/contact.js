@@ -5,8 +5,7 @@ const Contact = () => (
   <Card className="w-4/5 md:w-2/4 text-on-secondary">
     <SectionHeader>want to reach out?</SectionHeader>
     <p className="py-2 ">
-      Professional Opportunities? Talk about tech things? Tell me how much this
-      sites color palette looks like a law firm?
+      Professional Opportunities? Talk about tech things? Tell me about how I don't have a third thing to list?
     </p>
     <p>
       Feel free to email me at:{' '}
