@@ -9,11 +9,5 @@
         "Service-Worker-Allowed": "/"
       }
     }
-  ],
-  "builds": [
-    {
-      "src": "next.config.js",
-      "use": "@now/next"
-    }
   ]
 }
