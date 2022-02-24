@@ -3,7 +3,6 @@ const optimizedImages = require('next-optimized-images');
 const withOffline = require('next-offline');
 
 const nextConfig = {
-  target: 'serverless',
   workboxOpts: {
     runtimeCaching: [
       {
