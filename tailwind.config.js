@@ -6,7 +6,7 @@ module.exports = {
     purgeLayersByDefault: true,
     removeDeprecatedGapUtilities: true
   },
-  purge: ['./components/**/*.*', './pages/**/*.*'],
+  content: ['./components/**/*.*', './pages/**/*.*'],
   theme: {
     extend: {
       colors: COLORS
@@ -21,10 +21,6 @@ module.exports = {
       none: 'none',
       blur: 'blur(4px)'
     }
-  },
-  variants: {
-    filter: ['responsive'],
-    backdropFilter: ['responsive']
   },
   plugins: [require('tailwindcss-filters')]
 };
